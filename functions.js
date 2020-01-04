@@ -31,3 +31,7 @@ console.log('getName(\'John\', \'Doe\'):', getName('John', 'Doe'));
 console.log('getName(\'John\'):', getName('John'));
 console.log('getName function returns fullname (firstname + lastname) but also returns just the firstname if there is no lastname');
 console.log('');
+// Void Function
+function myVoid() {
+    return;
+}
