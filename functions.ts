@@ -32,7 +32,7 @@ function getName(firstname:string, lastname:string):string {
     return firstname;
   }
 
-  return firstname + lastname;
+  return firstname + " " + lastname;
 }
 
 console.log('String Function');

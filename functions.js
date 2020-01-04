@@ -24,7 +24,7 @@ function getName(firstname, lastname) {
     if (lastname == undefined) {
         return firstname;
     }
-    return firstname + lastname;
+    return firstname + " " + lastname;
 }
 console.log('String Function');
 console.log('getName(\'John\', \'Doe\'):', getName('John', 'Doe'));
