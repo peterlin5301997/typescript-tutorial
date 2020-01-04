@@ -31,3 +31,18 @@ console.log('String Array:', strArray);
 console.log('Number Array:', numArray);
 console.log('Boolean Array:', boolArray);
 console.log('');
+// Special DataTypes Declaration
+var myTuple;
+var myVoid;
+var myNull;
+var myUndefined;
+// Special DataTypes Assignment
+myTuple = ['Hello', 4];
+myVoid = null; // or 'undefined'
+myNull = null; // or 'undefined'
+myUndefined = null; // or 'undefined'
+console.log('Special DataTypes');
+console.log(myTuple);
+console.log(myVoid);
+console.log(myNull);
+console.log(myUndefined);
